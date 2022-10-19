@@ -1,0 +1,269 @@
+{
+    "questions": [
+        {
+            "questionId": 1,
+            "question": "初めて電子契約を導入する",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 2,
+            "question": "個人事業主である",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 3,
+            "question": "社員数50名以上の企業規模である",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 4,
+            "question": "基本料や送信量などが不要であるなどとにかく費用を抑えたい",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 5,
+            "question": "ワークフローやテンプレートなど機能性は豊富な方が良い",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 6,
+            "question": "セキュリティ面は高ければ高いほどよい",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 7,
+            "question": "英語対応しているサービスを探している",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 8,
+            "question": "英語圏以外の海外取引も想定している",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 9,
+            "question": "電子帳簿保存法に対応済み、もしくはシステム連携できる",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 10,
+            "question": "まずは無料プランや無料トライアルで試したい",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 11,
+            "question": "パソコンだけでなくスマホやタブレットからもアクセスしたい",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 12,
+            "question": "既に使用しているシステムと連携させたい",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 13,
+            "question": "社内稟議や簡単な契約のために電子印鑑機能も必要",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 14,
+            "question": "取引先にも安心して使ってもらえるよう知名度は高い方が良い",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 15,
+            "question": "コンサルやサポートが充実している方が良い",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        },
+        {
+            "questionId": 16,
+            "question": "立会人型だけでなく当事者型契約もできた方が良い",
+            "answers": [
+                "はい",
+                "いいえ"
+            ]
+        }
+    ],
+    "scores": [
+        {
+            "name":"ドキュサイン",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[10,1]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[5,1]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[10,1]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[5,1]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/docusign/"
+        },
+        {
+            "name":"AdobeSign",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[5,1]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[10,1]},{"questionId":9,"score":[1,10]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[5,1]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/adobe-sign/"
+        },
+        {
+            "name":"NINJASIGN",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[5,1]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/ninja-sign/"
+        },
+        {
+            "name":"リーテックスデジタル契約",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[5,1]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/le-techs/"
+        },
+        {
+            "name":"クラウドサイン",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[5,1]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[10,1]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[5,1]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/about_cloudsign/"
+        },
+        {
+            "name":"BtoBプラットフォーム契約書",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[5,1]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/btobplatform/"
+        },
+        {
+            "name":"WAN-Sign",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/wan-sign/"
+        },
+        {
+            "name":"かんたん 電子契約forクラウド",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/easy-contract/"
+        },
+        {
+            "name":"ContractS CLM",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[1,10]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/holmescloud/"
+        },
+        {
+            "name":"paperlogic電子契約",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/paperlogic/"
+        },
+        {
+            "name":"GMOサイン",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[10,1]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[5,1]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[5,1]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/gmosign/"
+        },
+        {
+            "name":"みんなの電子署名",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/es-vector/"
+        },
+        {
+            "name":"CECTRUST-Lignt",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[1,10]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[5,1]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/cectrust-light/"
+        },
+        {
+            "name":"contracthub@absonne",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[10,1]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[5,1]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/contracthub-absonne/"
+        },
+        {
+            "name":"クラウドスタンプ",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/cloud-stamp/"
+        },
+        {
+            "name":"電子契約 プラットフォームβ",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[1,10]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/sakura/"
+        },
+        {
+            "name":"zoho sign",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[10,1]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/digital-sign/zohosign/"
+        },
+        {
+            "name":"cmサイン",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[5,1]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[1,10]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/cmsign/"
+        },
+        {
+            "name":"SignTime",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/signtime/"
+        },
+        {
+            "name":"イースタンプ",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[1,5]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[5,1]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://digital-sign.info/e-contract/e-stamp/"
+        },
+        {
+            "name":"Great Sign",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/great_sign/"
+        },
+        {
+            "name":"DocYou",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/docyou/"
+        },
+        {
+            "name":"FAST SIGN",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/docyou/"
+        },
+        {
+            "name":"セコムあんしん電子契約サービス",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[10,1]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[1,5]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/secom/"
+        },
+        {
+            "name":"HelloSign",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[5,1]},{"questionId":7,"score":[10,1]},{"questionId":8,"score":[10,1]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[5,1]},{"questionId":13,"score":[5,1]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[1,10]}],
+            "url" : "https://digital-sign.info/e-contract/secom/"
+        },
+        {
+            "name":"Jinjerサイン",
+            "data":[{"questionId":1,"score":[5,1]},{"questionId":2,"score":[1,5]},{"questionId":3,"score":[10,1]},{"questionId":4,"score":[1,5]},{"questionId":5,"score":[1,5]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://e-signing.jp/"
+        },
+        {
+            "name":"契約大臣",
+            "data":[{"questionId":1,"score":[1,5]},{"questionId":2,"score":[5,1]},{"questionId":3,"score":[1,10]},{"questionId":4,"score":[5,1]},{"questionId":5,"score":[5,1]},{"questionId":6,"score":[1,5]},{"questionId":7,"score":[1,10]},{"questionId":8,"score":[1,10]},{"questionId":9,"score":[10,1]},{"questionId":10,"score":[5,1]},{"questionId":11,"score":[5,1]},{"questionId":12,"score":[1,5]},{"questionId":13,"score":[1,5]},{"questionId":14,"score":[1,5]},{"questionId":15,"score":[1,5]},{"questionId":16,"score":[10,1]}],
+            "url" : "https://keiyaku-daijin.com/"
+        }
+    ]
+}

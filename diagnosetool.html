@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="diagnosetool.js"></script>
+	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
+	<title></title>
+	<meta name="robots" content="noindex" />
+	<meta name="googlebot" content="noindex" />
+	<meta name="robots" content="nofollow" />
+</head>
+
+<body>
+
+	<!-- TOP -->
+	<div id="diagnosetool_top">
+		<div class="container">
+			<p class="title_text">あなたにマッチする電子契約サービスは？</p>
+			<h2>電子契約サービス診断</h2>
+			<img src="images/sign.png">
+			<a class="btn btn_w" href="#diagnosetool_question">診断スタート</a>
+		</div>
+	</div>
+
+
+	<!-- 質問 -->
+	<div id="diagnosetool_question">
+		<div class="container">
+			<div id="stepbar">
+				<ul>
+				</ul>
+			</div>
+			<p id="question_number" class="question_number"></p>
+			<p id="question_text" class="question_text"></p>
+			<ul id="question_area" class="answer_area">
+			</ul>
+			<div id="arrow_area" class="arrow_area">
+				<a id="return_area" class="return" onclick="returnStep()">前へ</a>
+				<a class="next unselected" onclick="nextStep()">次へ</a>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 結果を見る -->
+	<div id="diagnosetool_question_end">
+		<div class="container">
+			<p class="q_end_text">質問は以上です</p>
+			<p class="q_end_text_02">回答に変更がなければ、結果に進んでください。</p>
+			<a class="btn btn_answer" href="#tab_area">結果を見る</a>
+			<a class="btn btn_return return" href="#diagnosetool_question" onclick="returnQuestion()">一つ前の質問に戻る</a>
+			<div class="arrow_area">
+			</div>
+		</div>
+	</div>
+
+	<div id="modal_page">
+		<!-- modal -->
+		<div id="modal">
+			<a class="close_btn" href="#diagnosetool_question_end">×</a>
+			<div class="container">
+				<span class="list"></span>
+				<div class="case">
+					<h2>質問ごとの該当項目</h2>
+					<a class="btn" href="" target="_blank">サービス詳細</a>
+				</div>
+				<div class="item">
+					<ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 結果 -->
+	<div id="diagnosetool_answer">
+		<div id="tab_area">
+			<h2>結果</h2>
+			<ul>
+				<li class="selected">マッチ度確認</li>
+			</ul>
+		</div>
+		<div class="container">
+			<p class="answer_text">あなたとのマッチ度が高い電子契約サービスは</p>
+			<p class="service_name"><a href="#"></a></p>
+			<ul id="result_area" class="result_area">
+			</ul>
+			<a class="btn btn_challenge" href="#diagnosetool_question">もう一度挑戦する</a>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

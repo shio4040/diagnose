@@ -1,0 +1,547 @@
+@charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6, body, html, p, li, dt, dd, pre, form, fieldset {
+	margin: 0px;
+	padding: 0px;
+	line-height:normal;
+}
+ul, ol, dl, img {
+	margin: 0px;
+	padding: 0px;
+}
+ul, ol {
+	list-style-type: none;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 0%;
+	line-height: 0%;
+	vertical-align: bottom;
+}
+a {
+	text-decoration: none;
+	color: #333333;
+}
+body div a:active, body div a:focus {
+	outline: none;
+}
+body{
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+	color: #333333;
+}
+p{
+	margin-bottom: 20px;
+	font-size: 18px;	
+}
+.pc{
+	display: block!important;
+	 }
+.sp{
+	display: none!important;
+	 }
+.container {
+	margin: 0 auto;
+	width: 650px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: normal;
+	}
+h2{
+	font-size: 36px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: 800;
+	letter-spacing:3px;
+}
+.btn{
+	width: 350px;
+	height: 55px;
+	border-radius: 50px;
+	display: inline-block;
+	line-height: 55px;
+}
+.btn_w{
+	background-color: #ffffff;
+	font-size: 18px;
+	background-image: url("../images/arrow_right.png");
+	background-repeat: no-repeat;
+/*	background-position: 315px center;*/
+	background-size: 12px;
+	background-position: 95% center;
+}
+.btn_w:hover{
+	background-color: #54bda2;
+}
+.arrow_area{
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+	margin: 0 auto;
+}
+.arrow_area a{
+	display: inline-block;
+}
+.arrow_area a.return{
+	padding-left: 30px;
+	background-image: url("../images/arrow_left.png");
+	background-repeat: no-repeat;
+	background-position:center left;
+	background-size: 12px;
+}
+.arrow_area a.next{
+	padding-right: 30px;
+	background-image: url("../images/arrow_right.png");
+	background-repeat: no-repeat;
+	background-position:center right;
+	background-size: 12px;
+}
+.arrow_area a.next:hover,.arrow_area a.return:hover{
+	opacity: 0.8;
+}
+.arrow_area a.return.unselected{
+	color: #cccccc;
+	background-image: url("../images/arrow_g_left.png");
+}
+.arrow_area a.next.unselected{
+	color: #cccccc;
+	background-image: url("../images/arrow_g_right.png");
+}
+
+/* diagnosetool_top */
+#diagnosetool_top{
+	background-color: #a9f1df;
+	padding: 80px 0;
+}
+#diagnosetool_top img{
+	width: 300px;
+	height: auto;
+	margin-bottom: 50px;
+}
+/* diagnosetool_question */
+#diagnosetool_question{
+	display: none;
+	padding: 30px 0;
+}
+#diagnosetool_question #stepbar{
+	text-align: center;
+	margin-bottom: 40px;
+}
+#diagnosetool_question #stepbar ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+	margin: 0 auto;
+}
+#diagnosetool_question #stepbar ul li{
+  width: 10px;
+  height: 10px;
+  background-color: #cccccc;
+  border-radius: 50%;
+}
+#diagnosetool_question #stepbar ul li.green{
+	background-color: #3db496;
+}
+#diagnosetool_question .question_number{
+	color: #3db496;
+	margin-bottom: 20px;
+}
+#diagnosetool_question .question_text{
+	margin-bottom: 50px;
+}
+#diagnosetool_question ul.answer_area{
+	margin-bottom: 50px;
+}
+#diagnosetool_question ul.answer_area li{
+	margin-bottom: 10px;
+}
+#diagnosetool_question ul.answer_area li:last-child{
+	margin-bottom: 0;
+}
+.btn_q{
+	border: 3px #3db496 solid;
+	background-color: #ffffff;
+}
+.btn_q:hover{
+	background-color: #a9f1df;
+}
+.btn_q.choice{
+	background-color: #54bda2;	
+}
+
+/* diagnosetool_question_end */
+#diagnosetool_question_end{
+	display: none;
+	padding: 80px 0;	
+}
+#diagnosetool_question_end .q_end_text{
+	font-size: 24px;
+}
+#diagnosetool_question_end .q_end_text_02{
+	margin-bottom: 50px;
+}
+.btn_answer{
+	background-color: #54bda2;
+	font-size: 18px;
+	background-image: url("../images/arrow_right.png");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	background-size: 12px;
+	margin-bottom: 20px;
+	border: 3px solid #54bda2;
+	/* pointer-events:none; */
+}
+.btn_answer:hover{
+	background-color: #ffffff;
+}
+.btn_return{
+	/* background-color: #54bda2; */
+	font-size: 18px;
+	background-image: url("../images/arrow_left.png");
+	background-repeat: no-repeat;
+	background-position: 5% center;
+	background-size: 12px;
+	margin-bottom: 20px;
+	border: 3px solid #54bda2;
+	/* pointer-events:none; */
+}
+.btn_return:hover{
+	background-color: #ffffff;
+}
+.btn_confirmation{
+	border: 3px solid #cccccc;
+	margin-bottom: 50px;
+}
+.btn_confirmation:hover{
+	opacity: 0.8;
+}
+
+/* diagnosetool_answer */
+#diagnosetool_answer{
+	display: none;
+}
+#diagnosetool_answer #tab_area{
+	background-color: #d4f8ef;
+	padding-top: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#diagnosetool_answer #tab_area h2{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+#diagnosetool_answer #tab_area ul{
+	width: 650px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#diagnosetool_answer #tab_area ul li{
+	width: 32%;
+	background-color: #54bda2;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 15px 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#diagnosetool_answer #tab_area ul li.selected{
+	background-color: #ffffff;
+	color: #333333;
+}
+#diagnosetool_answer .service_name{
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+#diagnosetool_answer ul.result_area{
+	border-top: 1px dashed #cccccc;
+	margin-bottom: 50px;
+}
+#diagnosetool_answer ul.result_area li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	box-sizing: border-box;
+	line-height: 40px;
+/*	border-top: 1px dashed #cccccc;*/
+	border-bottom: 1px dashed #cccccc;
+}
+#diagnosetool_answer ul.result_area li p{
+	margin-bottom: 0;
+}
+#diagnosetool_answer ul.result_area li p a{
+	border-bottom: 1px solid;
+}
+#diagnosetool_answer ul.result_area li p a:hover{
+	opacity: 0.5;
+}
+#diagnosetool_answer ul.result_area li .name p{
+	font-size: 12px;
+}
+#diagnosetool_answer ul.result_area li.lank_01 .name p a,#diagnosetool_answer ul.result_area li.lank_02 .name p a,#diagnosetool_answer ul.result_area li.lank_03 .name p a{
+	font-weight: 800;
+	font-size: 14px;
+	color: #177f64;
+}
+#diagnosetool_answer ul.result_area li.lank_01,#diagnosetool_answer ul.result_area li.lank_02,#diagnosetool_answer ul.result_area li.lank_03{
+	background-color: #f1fdfa;
+}
+#diagnosetool_answer ul.result_area li .name{
+	width: 160px;
+	text-align: left;
+}
+#diagnosetool_answer ul.result_area li .bar{
+	width: 190px;
+    height: 12px;
+    padding: 5px;
+    position: relative;
+    background-color: #ececec;
+}
+#diagnosetool_answer ul.result_area li .bar .barwidth{
+	width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    will-change: width;
+	background-color: #87cebc;
+}
+#diagnosetool_answer ul.result_area li.lank_01 .bar .barwidth,#diagnosetool_answer ul.result_area li.lank_02 .bar .barwidth,#diagnosetool_answer ul.result_area li.lank_03 .bar .barwidth{
+	background-color: #359c81;
+}
+#diagnosetool_answer ul.result_area li .number p{
+	font-size: 24px;
+}
+#diagnosetool_answer ul.result_area li .number p span{
+	font-size: 18px;
+}
+#diagnosetool_answer ul.result_area li .detail a{
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #359c81;
+	line-height: normal;
+	border-radius: 50px;
+	display: inline-block;
+	padding: 5px 20px;
+	vertical-align: middle;
+}
+#diagnosetool_answer ul.result_area li .detail a:hover{
+	opacity: 0.8;
+}
+.btn_challenge{
+	border: 3px solid #cccccc;
+	margin-bottom: 50px;
+}
+.btn_challenge:hover{
+	opacity: 0.8;
+}
+/* modal.html */
+/* #modal_page{
+	background-color: rgba(0, 0, 0, 0.502);
+} */
+#modal_page{
+	z-index:3;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.502);
+  
+	display: none;
+	align-items: center;
+	justify-content: center;
+	overflow: scroll;
+  }
+#modal{
+    width: 90%;
+    max-width: 650px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px 20px 50px;
+    margin: 10% auto auto;
+	box-sizing: border-box;
+}
+#modal .container{
+	width: 100%;
+}
+#modal .container .list{
+	font-size: 13px;
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 20px;
+	display: block;
+}
+#modal .container h2{
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+#modal .container .case{
+	position: relative;
+}
+#modal .container .btn{
+	background-color: #359c81;
+	color: #ffffff;
+	width: 135px;
+	font-size: 15px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top:0;
+	right: 15px;
+}
+#modal .container .btn:hover{
+	opacity: 0.8;
+}
+#modal .container .item ul{
+	padding: 0 50px;
+}
+#modal .container .item ul li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	box-sizing: border-box;
+	/* line-height: 60px; */
+	max-height: 60px;
+	min-height: 60px;
+	border-bottom: 1px dashed #cccccc;
+}
+#modal .container .item ul li .question p{
+	margin-bottom: 0;
+	display: inline;
+	font-size: 13px;
+}
+#modal .container .item ul li .question span{
+	color: #cccccc;
+	padding-right: 10px;
+	font-size: 25px;
+}
+#modal .container .item ul li .answer{
+	font-size: 30px;
+	width: 10%;
+}
+.close_btn {
+	float: right;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	font-size: 16px;
+	}
+p{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+.btn{
+	width: 90%;
+}
+#diagnosetool_top,#diagnosetool_question_end{
+	padding: 50px 0;
+}
+#diagnosetool_top img{
+	width: 60%;
+}
+#diagnosetool_question .question_number{
+	margin-bottom: 10px;
+}
+#diagnosetool_answer #tab_area ul{
+	width: 100%;
+	padding: 0 1%;
+}
+#diagnosetool_answer #tab_area ul li{
+	font-size: 12px;
+	font-weight: 800;
+}
+#diagnosetool_question .question_text{
+	margin-bottom: 25px;
+}
+#diagnosetool_question_end .q_end_text_02{
+	margin-bottom: 25px;
+	font-size: 15px;
+}
+.arrow_area{
+	width: 90%;
+}
+#stepbar ul{
+	width: 100% !important;
+}
+#diagnosetool_answer .container{
+	width: 100%;
+}
+#diagnosetool_answer ul.result_area li{
+	padding: 0 1%;
+}
+#diagnosetool_answer ul.result_area li .name p{
+	font-size: 10px;
+}
+#diagnosetool_answer ul.result_area li .name{
+	width: 30%;
+}
+#diagnosetool_answer ul.result_area li.lank_01 .name p a, #diagnosetool_answer ul.result_area li.lank_02 .name p a, #diagnosetool_answer ul.result_area li.lank_03 .name p a{
+	font-size: 10px;
+}
+#diagnosetool_answer ul.result_area li .bar {
+	width: 30%;
+}
+#diagnosetool_answer ul.result_area li .number p{
+	font-size: 18px;
+}
+#diagnosetool_answer ul.result_area li .number p span{
+	font-size: 13px;
+}
+.btn_challenge{
+	width: 80%;
+}
+#modal{
+	margin: 20% auto auto;
+}
+#modal .container .item ul{
+	padding: 0;
+}
+#modal .container .item ul li .question span{
+	font-size: 14px;
+}
+#modal .container .item ul li .question{
+	width: 90%;
+	text-align: left;
+	display: flex;
+}
+#modal .container .item ul li .question p{
+	font-size: 12px;
+}
+#modal .container .btn{
+	position: static;
+	margin-bottom: 25px;
+}
+#modal .container h2{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+#modal .container .item ul li .answer{
+	font-size: 20px;
+	width: 10%;
+}
+#modal .container .item ul li .answer p{
+	justify-content: center;
+}
+#modal .container .item ul li{
+	padding: 0;
+}
+}
